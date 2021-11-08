@@ -1,5 +1,5 @@
-name: 'Helm Lint and Push'
-description: 'Lint and Push a Helm Chart'
+name: 'Helm Lint'
+description: 'Lint a Helm Chart'
 inputs:
   chart-path:
     description: 'The path to the helm chart'
