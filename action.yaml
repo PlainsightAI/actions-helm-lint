@@ -1,0 +1,14 @@
+name: 'Helm Lint and Push'
+description: 'Lint and Push a Helm Chart'
+inputs:
+  chart-path:
+    description: 'The path to the helm chart'
+    required: true
+outputs:
+  output:
+    description: 'The command output'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.chart-path }}
