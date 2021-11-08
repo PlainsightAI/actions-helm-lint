@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/actions-helm-lint.iml" filepath="$PROJECT_DIR$/.idea/actions-helm-lint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../actions-helm-lint/.idea/actions-helm-lint.iml" filepath="$PROJECT_DIR$/../actions-helm-lint/.idea/actions-helm-lint.iml" />
     </modules>
   </component>
 </project>
